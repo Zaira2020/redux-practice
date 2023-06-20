@@ -108,7 +108,7 @@ function TodoList() {
 						</tr>
 					</thead>
 
-					<tbody>
+					<tbody> 
 						{todos && todos.map((todo, index) => (
 							<tr key={index}>
 								<td>
